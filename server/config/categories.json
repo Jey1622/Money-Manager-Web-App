@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Food",
+    "type": "Expense",
+    "description": "Restaurants, groceries, snacks, and food expenses",
+    "isActive": true
+  },
+  {
+    "name": "Social Life",
+    "type": "Expense",
+    "description": "Parties, outings, and social activities",
+    "isActive": true
+  },
+  {
+    "name": "Pets",
+    "type": "Expense",
+    "description": "Pet food, grooming, veterinary, and other pet expenses",
+    "isActive": true
+  },
+  {
+    "name": "Transport",
+    "type": "Expense",
+    "description": "Fuel, public transport, taxi, and vehicle expenses",
+    "isActive": true
+  },
+  {
+    "name": "Household",
+    "type": "Expense",
+    "description": "Household items, cleaning, furniture, and maintenance",
+    "isActive": true
+  },
+  {
+    "name": "Shopping",
+    "type": "Expense",
+    "description": "Clothes, electronics, and general shopping",
+    "isActive": true
+  },
+  {
+    "name": "Entertainment",
+    "type": "Expense",
+    "description": "Movies, games, subscriptions, and entertainment",
+    "isActive": true
+  },
+  {
+    "name": "Health",
+    "type": "Expense",
+    "description": "Medicine, doctor visits, and healthcare expenses",
+    "isActive": true
+  },
+  {
+    "name": "Education",
+    "type": "Expense",
+    "description": "Courses, books, tuition, and educational expenses",
+    "isActive": true
+  },
+  {
+    "name": "Bills & Utilities",
+    "type": "Expense",
+    "description": "Electricity, water, internet, phone, and other bills",
+    "isActive": true
+  },
+  {
+    "name": "Rent",
+    "type": "Expense",
+    "description": "House or apartment rent",
+    "isActive": true
+  },
+  {
+    "name": "Travel",
+    "type": "Expense",
+    "description": "Flights, hotels, trips, and vacation expenses",
+    "isActive": true
+  },
+  {
+    "name": "Personal Care",
+    "type": "Expense",
+    "description": "Salon, grooming, cosmetics, and personal care",
+    "isActive": true
+  },
+  {
+    "name": "Insurance",
+    "type": "Expense",
+    "description": "Health, vehicle, life, and other insurance payments",
+    "isActive": true
+  },
+  {
+    "name": "Debt & Loans",
+    "type": "Expense",
+    "description": "Loan payments, credit card payments, and debt repayment",
+    "isActive": true
+  },
+  {
+    "name": "Gifts & Donations",
+    "type": "Expense",
+    "description": "Gifts, charity, and donations",
+    "isActive": true
+  },
+  {
+    "name": "Others",
+    "type": "Expense",
+    "description": "Other expenses that do not fit into the above categories",
+    "isActive": true
+  },
+
+  {
+    "name": "Allowance",
+    "type": "Income",
+    "description": "Regular allowance received",
+    "isActive": true
+  },
+  {
+    "name": "Salary",
+    "type": "Income",
+    "description": "Monthly or regular salary",
+    "isActive": true
+  },
+  {
+    "name": "Petty Cash",
+    "type": "Income",
+    "description": "Small amounts of cash received",
+    "isActive": true
+  },
+  {
+    "name": "Bonus",
+    "type": "Income",
+    "description": "Performance bonuses and other bonuses",
+    "isActive": true
+  },
+  {
+    "name": "Freelance",
+    "type": "Income",
+    "description": "Income received from freelance work",
+    "isActive": true
+  },
+  {
+    "name": "Interest",
+    "type": "Income",
+    "description": "Interest received from bank accounts or investments",
+    "isActive": true
+  },
+  {
+    "name": "Investment",
+    "type": "Income",
+    "description": "Income received from investments",
+    "isActive": true
+  },
+  {
+    "name": "Gift",
+    "type": "Income",
+    "description": "Money received as gifts",
+    "isActive": true
+  },
+  {
+    "name": "Refund",
+    "type": "Income",
+    "description": "Refunds received from purchases or services",
+    "isActive": true
+  },
+  {
+    "name": "Others",
+    "type": "Income",
+    "description": "Other income that does not fit into the above categories",
+    "isActive": true
+  }
+]
