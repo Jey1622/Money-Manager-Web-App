@@ -12,6 +12,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors());
 
-console.log("hello")
+const category=require("./routes/category")
+
+app.use("/api/", category); 
+
 
 module.exports = app;
