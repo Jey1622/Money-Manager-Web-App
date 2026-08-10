@@ -13,8 +13,9 @@ app.use(cookieParser());
 app.use(cors());
 
 const category=require("./routes/category")
+const transaction=require("./routes/transaction")
 
 app.use("/api/", category); 
-
+app.use("/api/",transaction)
 
 module.exports = app;

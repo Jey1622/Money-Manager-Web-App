@@ -1,10 +1,18 @@
 const Category = require("../Model/categoryModel");
 
+//get Categories
 exports.getCategories = async (req, res, next) => {
   try {
-    const { type } = req.body;
+   const { type } = req.query;
 
-    const categories = await Category.find({ type: type });
+    const categories = await Category.find({
+      type,
+      isActive: true,
+      $or: [
+        { userId: null }, // default categories
+        // { userId: req.user._id }, // user's custom categories
+      ],
+    });
 
     return res.status(200).json({
       success: true,
