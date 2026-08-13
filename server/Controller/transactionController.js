@@ -29,7 +29,7 @@ exports.getAllTransaction = async (req, res, next) => {
   try {
     const transaction = await Transaction.find({ isDelete: false })
       .select("date amount category account note desc")
-      .populate("category", "name");
+      .populate("category", "name type");
     return res.status(200).json({
       success: true,
       transaction,
