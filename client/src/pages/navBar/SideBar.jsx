@@ -13,14 +13,16 @@ import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import HomeIcon from "@mui/icons-material/Home";
 import DashboardRoundedIcon from "@mui/icons-material/DashboardRounded";
 import PeopleIcon from "@mui/icons-material/People";
+import AccountBalanceWalletRoundedIcon from '@mui/icons-material/AccountBalanceWalletRounded';
+import EqualizerRoundedIcon from '@mui/icons-material/EqualizerRounded';
 import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 export const DRAWER_WIDTH = 240;
 
 const navItems = [
-    { text: "Home", icon: <HomeIcon />,  path: "/", active: true },
-    { text: "Transaction", icon: <PeopleIcon />,  path: "/student" },
+    { text: "Transaction", icon: <AccountBalanceWalletRoundedIcon />,  path: "/" ,active: true},
+    { text: "Stats", icon: <EqualizerRoundedIcon />,  path: "/stats" },
     // { text: "Logout", icon: <LogoutIcon />, call: () => setOpen(true) },    
     // { text: 'Orders', icon: <ReceiptLongRoundedIcon /> },
     // { text: 'Settings', icon: <SettingsRoundedIcon /> },
