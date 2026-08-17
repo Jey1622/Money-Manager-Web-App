@@ -12,7 +12,7 @@ exports.getCategories = async (req, res, next) => {
         { userId: null }, // default categories
         // { userId: req.user._id }, // user's custom categories
       ],
-    });
+    }).select("_id name description");
 
     return res.status(200).json({
       success: true,
