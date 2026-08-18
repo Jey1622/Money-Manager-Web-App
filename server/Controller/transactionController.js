@@ -41,10 +41,42 @@ exports.getAllTransaction = async (req, res, next) => {
       .select("date amount category account note desc")
       .populate("category", "name type emoji")
       .sort({ date: -1 });
-      
+
     return res.status(200).json({
       success: true,
       transaction,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+exports.getTotal = async (req, res, next) => {
+  try {
+    const transactions = await Transaction.find({
+      isDelete: false,
+    })
+      .select("date amount category account")
+      .populate("category", " type");
+
+    const incomeTotal = transactions
+      .filter((transaction) => transaction.category.type === "Income")
+      .reduce((total, transaction) => total + transaction.amount, 0);
+
+    const expenseTotal = transactions
+      .filter((transaction) => transaction.category.type === "Expense")
+      .reduce((total, transaction) => total + transaction.amount, 0);
+
+    const total = incomeTotal - expenseTotal;
+
+    return res.status(200).json({
+      success: true,
+      incomeTotal,
+      expenseTotal,
+      total
     });
   } catch (error) {
     return res.status(500).json({
