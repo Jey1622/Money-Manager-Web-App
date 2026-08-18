@@ -27,7 +27,17 @@ exports.addTransaction = async (req, res, next) => {
 
 exports.getAllTransaction = async (req, res, next) => {
   try {
-    const transaction = await Transaction.find({ isDelete: false })
+    const { month, year } = req.query;
+
+    const startDate = new Date(year, month - 1, 1);
+    const endDate = new Date(year, month, 1);
+    const transaction = await Transaction.find({
+      isDelete: false,
+      date: {
+        $gte: startDate,
+        $lt: endDate,
+      },
+    })
       .select("date amount category account note desc")
       .populate("category", "name type");
     return res.status(200).json({

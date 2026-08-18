@@ -19,11 +19,16 @@ function TransactionPage() {
   };
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [selectedDate]);
 
   function fetchData() {
     api
-      .get("/getAllTransaction")
+      .get("/getAllTransaction", {
+        params: {
+          month: selectedDate.getMonth() + 1,
+          year: selectedDate.getFullYear(),
+        },
+      })
       .then((response) => {
         setTransactions(response.data.transaction);
         console.log(response);
