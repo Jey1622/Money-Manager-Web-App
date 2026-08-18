@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import api from "../../axios";
-import { Box, Typography, Button, Paper, Dialog } from "@mui/material";
+import { Box, Typography, Button, Paper } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import AddTransaction from "./AddTransaction";
 import DatePicker from "../../components/DatePicker";
@@ -192,6 +192,7 @@ function TransactionPage() {
                     fontSize: 16,
                   }}
                 >
+                  {transaction.category.emoji}
                   {transaction.category.name}
                 </Typography>
 

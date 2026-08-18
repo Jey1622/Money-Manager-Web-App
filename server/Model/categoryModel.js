@@ -12,6 +12,10 @@ const CategoryModel = new mongoose.Schema(
       enum: ["Income", "Expense"],
       required: true,
     },
+    emoji: {
+      type: String,
+      default: null,
+    },
     description: {
       type: String,
       trim: true,

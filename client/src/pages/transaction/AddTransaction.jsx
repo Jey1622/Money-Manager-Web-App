@@ -272,6 +272,7 @@ function AddTransaction({ open, handleClose, onTransactionAdded }) {
             >
               {categories.map((category) => (
                 <MenuItem key={category._id} value={category._id}>
+                  {category.emoji}
                   {category.name}
                 </MenuItem>
               ))}

@@ -1,493 +1,1698 @@
 [
   {
-    "date": "2025-09-03T09:30:00.000Z",
-    "amount": 250,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Breakfast",
-    "desc": "Breakfast at restaurant"
-  },
-  {
-    "date": "2025-09-08T18:30:00.000Z",
-    "amount": 1200,
-    "category": "6a788a46c2687a5e918c1e14",
+    "date": "2025-09-01T08:47:00.000Z",
+    "amount": 27750.29,
+    "category": "6a84051cb6ec17089431f5e7",
     "account": "Account",
-    "note": "Transport",
-    "desc": "Monthly travel expenses"
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
   },
   {
-    "date": "2025-09-15T12:00:00.000Z",
-    "amount": 30000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
-    "desc": "Monthly salary"
-  },
-  {
-    "date": "2025-09-21T17:00:00.000Z",
-    "amount": 800,
-    "category": "6a788a46c2687a5e918c1e12",
+    "date": "2025-09-03T08:55:00.000Z",
+    "amount": 254.82,
+    "category": "6a84051cb6ec17089431f5e5",
     "account": "Card",
-    "note": "Movie with friends",
-    "desc": "Social activity"
+    "note": "Mobile recharge",
+    "desc": ""
   },
   {
-    "date": "2025-09-28T10:00:00.000Z",
-    "amount": 5000,
-    "category": "6a788a46c2687a5e918c1e22",
+    "date": "2025-09-08T16:05:00.000Z",
+    "amount": 313.83,
+    "category": "6a84051cb6ec17089431f5dd",
     "account": "Cash",
-    "note": "Allowance",
-    "desc": "Monthly allowance"
-  },
-
-  {
-    "date": "2025-10-02T09:00:00.000Z",
-    "amount": 350,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Lunch",
-    "desc": "Lunch"
+    "note": "Milk & vegetables",
+    "desc": ""
   },
   {
-    "date": "2025-10-07T18:00:00.000Z",
-    "amount": 1500,
-    "category": "6a788a46c2687a5e918c1e15",
+    "date": "2025-09-09T11:13:00.000Z",
+    "amount": 970.05,
+    "category": "6a84051cb6ec17089431f5e3",
     "account": "Account",
-    "note": "Household items",
-    "desc": "Household shopping"
+    "note": "Doctor consultation",
+    "desc": ""
   },
   {
-    "date": "2025-10-14T10:00:00.000Z",
-    "amount": 30000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
-    "desc": "Monthly salary"
-  },
-  {
-    "date": "2025-10-20T16:30:00.000Z",
-    "amount": 600,
-    "category": "6a788a46c2687a5e918c1e17",
+    "date": "2025-09-09T11:15:00.000Z",
+    "amount": 534.25,
+    "category": "6a84051cb6ec17089431f5e4",
     "account": "Card",
-    "note": "Entertainment",
-    "desc": "Movie and snacks"
-  },
-  {
-    "date": "2025-10-26T11:00:00.000Z",
-    "amount": 2500,
-    "category": "6a788a46c2687a5e918c1e27",
-    "account": "Account",
-    "note": "Interest",
-    "desc": "Bank interest"
-  },
-
-  {
-    "date": "2025-11-03T08:30:00.000Z",
-    "amount": 200,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Breakfast",
+    "note": "Netflix subscription",
     "desc": ""
   },
   {
-    "date": "2025-11-09T19:00:00.000Z",
-    "amount": 1000,
-    "category": "6a788a46c2687a5e918c1e16",
+    "date": "2025-09-09T14:43:00.000Z",
+    "amount": 144.94,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Cash",
+    "note": "Spotify premium",
+    "desc": ""
+  },
+  {
+    "date": "2025-09-11T13:41:00.000Z",
+    "amount": 2996.93,
+    "category": "6a84051cb6ec17089431f5e6",
     "account": "Card",
-    "note": "Shopping",
-    "desc": "Clothes"
-  },
-  {
-    "date": "2025-11-15T10:00:00.000Z",
-    "amount": 30000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
+    "note": "Certification exam fee",
     "desc": ""
   },
   {
-    "date": "2025-11-22T15:00:00.000Z",
-    "amount": 750,
-    "category": "6a788a46c2687a5e918c1e18",
-    "account": "Cash",
-    "note": "Medicine",
-    "desc": "Pharmacy"
-  },
-  {
-    "date": "2025-11-28T12:00:00.000Z",
-    "amount": 500,
-    "category": "6a788a46c2687a5e918c1e22",
-    "account": "Cash",
-    "note": "Allowance",
-    "desc": ""
-  },
-
-  {
-    "date": "2025-12-02T09:00:00.000Z",
-    "amount": 450,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Lunch",
-    "desc": ""
-  },
-  {
-    "date": "2025-12-08T18:00:00.000Z",
-    "amount": 2500,
-    "category": "6a788a46c2687a5e918c1e16",
+    "date": "2025-09-13T10:22:00.000Z",
+    "amount": 1062.74,
+    "category": "6a84051cb6ec17089431f5de",
     "account": "Card",
-    "note": "Christmas shopping",
-    "desc": "Shopping"
-  },
-  {
-    "date": "2025-12-15T10:00:00.000Z",
-    "amount": 30000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
+    "note": "Friend's birthday treat",
     "desc": ""
   },
   {
-    "date": "2025-12-24T19:00:00.000Z",
-    "amount": 1200,
-    "category": "6a788a46c2687a5e918c1e20",
-    "account": "Cash",
-    "note": "Gifts",
-    "desc": "Christmas gifts"
+    "date": "2025-09-14T09:24:00.000Z",
+    "amount": 428.97,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Account",
+    "note": "Pet grooming",
+    "desc": ""
   },
   {
-    "date": "2025-12-31T20:00:00.000Z",
-    "amount": 3000,
-    "category": "6a788a46c2687a5e918c1e17",
+    "date": "2025-09-15T15:51:00.000Z",
+    "amount": 621.58,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Pharmacy - medicines",
+    "desc": ""
+  },
+  {
+    "date": "2025-09-15T18:10:00.000Z",
+    "amount": 559.13,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Doctor consultation",
+    "desc": ""
+  },
+  {
+    "date": "2025-09-18T07:43:00.000Z",
+    "amount": 330.18,
+    "category": "6a84051cb6ec17089431f5e5",
     "account": "Card",
-    "note": "New year celebration",
-    "desc": ""
-  },
-
-  {
-    "date": "2026-01-03T09:00:00.000Z",
-    "amount": 300,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Breakfast",
+    "note": "Water bill",
     "desc": ""
   },
   {
-    "date": "2026-01-08T18:00:00.000Z",
-    "amount": 1800,
-    "category": "6a788a46c2687a5e918c1e14",
-    "account": "Account",
-    "note": "Fuel",
-    "desc": "Vehicle fuel"
-  },
-  {
-    "date": "2026-01-15T10:00:00.000Z",
-    "amount": 32000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
-    "desc": ""
-  },
-  {
-    "date": "2026-01-20T16:00:00.000Z",
-    "amount": 900,
-    "category": "6a788a46c2687a5e918c1e17",
+    "date": "2025-09-18T13:45:00.000Z",
+    "amount": 1079.86,
+    "category": "6a84051cb6ec17089431f5e0",
     "account": "Card",
-    "note": "Entertainment",
+    "note": "Petrol refill",
     "desc": ""
   },
   {
-    "date": "2026-01-28T12:00:00.000Z",
-    "amount": 2000,
-    "category": "6a788a46c2687a5e918c1e27",
-    "account": "Account",
-    "note": "Interest",
-    "desc": "Interest received"
-  },
-
-  {
-    "date": "2026-02-02T09:00:00.000Z",
-    "amount": 250,
-    "category": "6a788a46c2687a5e918c1e11",
+    "date": "2025-09-19T14:02:00.000Z",
+    "amount": 2089.39,
+    "category": "6a84051cb6ec17089431f5e8",
     "account": "Cash",
-    "note": "Breakfast",
+    "note": "Allowance from home",
     "desc": ""
   },
   {
-    "date": "2026-02-07T18:30:00.000Z",
-    "amount": 1200,
-    "category": "6a788a46c2687a5e918c1e15",
+    "date": "2025-09-20T12:34:00.000Z",
+    "amount": 478.11,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Cleaning supplies",
+    "desc": ""
+  },
+  {
+    "date": "2025-09-24T21:34:00.000Z",
+    "amount": 206.17,
+    "category": "6a84051cb6ec17089431f5e1",
     "account": "Account",
-    "note": "Household",
+    "note": "Cleaning supplies",
     "desc": ""
   },
   {
-    "date": "2026-02-15T10:00:00.000Z",
-    "amount": 32000,
-    "category": "6a788a46c2687a5e918c1e23",
+    "date": "2025-09-25T17:07:00.000Z",
+    "amount": 223.38,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Cash",
+    "note": "Water bill",
+    "desc": ""
+  },
+  {
+    "date": "2025-09-26T17:25:00.000Z",
+    "amount": 621.29,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Cash",
+    "note": "Petrol refill",
+    "desc": ""
+  },
+  {
+    "date": "2025-09-27T18:36:00.000Z",
+    "amount": 217.3,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Cash",
+    "note": "Coffee with friends",
+    "desc": ""
+  },
+  {
+    "date": "2025-09-29T19:23:00.000Z",
+    "amount": 331.59,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Utensils purchase",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-01T14:37:00.000Z",
+    "amount": 227.08,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Cash",
+    "note": "Coffee with friends",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-01T19:56:00.000Z",
+    "amount": 32196.81,
+    "category": "6a84051cb6ec17089431f5e7",
     "account": "Account",
-    "note": "Salary",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2025-10-02T07:05:00.000Z",
+    "amount": 2838.01,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Cash",
+    "note": "Electricity bill",
     "desc": ""
   },
   {
-    "date": "2026-02-21T17:00:00.000Z",
-    "amount": 700,
-    "category": "6a788a46c2687a5e918c1e12",
+    "date": "2025-10-02T14:56:00.000Z",
+    "amount": 597.15,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Kitchen essentials",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-03T08:55:00.000Z",
+    "amount": 365.21,
+    "category": "6a84051cb6ec17089431f5dd",
     "account": "Card",
-    "note": "Dinner with friends",
+    "note": "Zomato dinner",
     "desc": ""
   },
   {
-    "date": "2026-02-26T11:00:00.000Z",
-    "amount": 1500,
-    "category": "6a788a46c2687a5e918c1e22",
-    "account": "Cash",
-    "note": "Allowance",
-    "desc": ""
-  },
-
-  {
-    "date": "2026-03-03T09:00:00.000Z",
-    "amount": 400,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Lunch",
-    "desc": ""
-  },
-  {
-    "date": "2026-03-09T18:00:00.000Z",
-    "amount": 2200,
-    "category": "6a788a46c2687a5e918c1e14",
+    "date": "2025-10-04T20:22:00.000Z",
+    "amount": 808.29,
+    "category": "6a84051cb6ec17089431f5e0",
     "account": "Account",
-    "note": "Travel",
+    "note": "Petrol refill",
     "desc": ""
   },
   {
-    "date": "2026-03-15T10:00:00.000Z",
-    "amount": 32000,
-    "category": "6a788a46c2687a5e918c1e23",
+    "date": "2025-10-05T18:48:00.000Z",
+    "amount": 613.08,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Card",
+    "note": "Internet bill",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-07T13:34:00.000Z",
+    "amount": 1172.92,
+    "category": "6a84051cb6ec17089431f5de",
     "account": "Account",
-    "note": "Salary",
+    "note": "Weekend outing",
     "desc": ""
   },
   {
-    "date": "2026-03-20T15:00:00.000Z",
-    "amount": 1000,
-    "category": "6a788a46c2687a5e918c1e18",
+    "date": "2025-10-11T22:01:00.000Z",
+    "amount": 133.56,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Account",
+    "note": "Lunch with colleagues",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-15T14:55:00.000Z",
+    "amount": 1407.92,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Account",
+    "note": "Vet checkup",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-16T12:16:00.000Z",
+    "amount": 516.6,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Card",
+    "note": "Pet grooming",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-16T14:50:00.000Z",
+    "amount": 2891.89,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Account",
+    "note": "Certification exam fee",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-21T10:03:00.000Z",
+    "amount": 200.66,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Account",
+    "note": "Milk & vegetables",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-22T22:13:00.000Z",
+    "amount": 415.69,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Card",
+    "note": "Bus pass recharge",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-27T09:48:00.000Z",
+    "amount": 985.98,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Cash",
+    "note": "Get-together dinner",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-29T23:28:00.000Z",
+    "amount": 284.7,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Cash",
+    "note": "Accessories",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-30T10:55:00.000Z",
+    "amount": 575.18,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Card",
+    "note": "Pet grooming",
+    "desc": ""
+  },
+  {
+    "date": "2025-10-30T13:45:00.000Z",
+    "amount": 287.03,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Card",
+    "note": "Pharmacy - medicines",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-03T09:43:00.000Z",
+    "amount": 1792.73,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Account",
+    "note": "Weekend outing",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-04T15:30:00.000Z",
+    "amount": 27137.47,
+    "category": "6a84051cb6ec17089431f5e7",
+    "account": "Account",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2025-11-09T08:05:00.000Z",
+    "amount": 517.14,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Account",
+    "note": "Mobile recharge",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-09T19:08:00.000Z",
+    "amount": 2277.72,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Account",
+    "note": "Shoes purchase",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-12T16:10:00.000Z",
+    "amount": 1157.28,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Card",
+    "note": "Weekend outing",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-13T07:24:00.000Z",
+    "amount": 332.6,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Account",
+    "note": "Zomato dinner",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-17T17:59:00.000Z",
+    "amount": 2043.06,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Card",
+    "note": "Certification exam fee",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-17T23:10:00.000Z",
+    "amount": 256.88,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Card",
+    "note": "Books purchase",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-18T13:32:00.000Z",
+    "amount": 538.68,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Account",
+    "note": "Friend's birthday treat",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-19T08:39:00.000Z",
+    "amount": 622.98,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Card",
+    "note": "Weekend outing",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-22T16:59:00.000Z",
+    "amount": 448.52,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Cleaning supplies",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-23T17:13:00.000Z",
+    "amount": 681.25,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Account",
+    "note": "Kitchen essentials",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-23T22:09:00.000Z",
+    "amount": 313.94,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Utensils purchase",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-24T08:47:00.000Z",
+    "amount": 194.08,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Cash",
+    "note": "Lunch with colleagues",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-29T10:47:00.000Z",
+    "amount": 398.95,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Account",
+    "note": "Cleaning supplies",
+    "desc": ""
+  },
+  {
+    "date": "2025-11-30T09:00:00.000Z",
+    "amount": 849.94,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Card",
+    "note": "Gaming purchase",
+    "desc": ""
+  },
+  {
+    "date": "2025-12-01T12:47:00.000Z",
+    "amount": 1409.38,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Account",
+    "note": "Vet checkup",
+    "desc": ""
+  },
+  {
+    "date": "2025-12-01T13:49:00.000Z",
+    "amount": 26308.2,
+    "category": "6a84051cb6ec17089431f5e7",
+    "account": "Account",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2025-12-02T18:37:00.000Z",
+    "amount": 531.52,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Account",
+    "note": "Pet grooming",
+    "desc": ""
+  },
+  {
+    "date": "2025-12-04T15:11:00.000Z",
+    "amount": 1254.77,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Account",
+    "note": "New shirt",
+    "desc": ""
+  },
+  {
+    "date": "2025-12-06T10:24:00.000Z",
+    "amount": 548.87,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Account",
+    "note": "Bus pass recharge",
+    "desc": ""
+  },
+  {
+    "date": "2025-12-10T18:57:00.000Z",
+    "amount": 1146.47,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Cash",
+    "note": "Dog food",
+    "desc": ""
+  },
+  {
+    "date": "2025-12-15T20:35:00.000Z",
+    "amount": 205.8,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Cash",
+    "note": "Pet grooming",
+    "desc": ""
+  },
+  {
+    "date": "2025-12-17T10:24:00.000Z",
+    "amount": 2299.01,
+    "category": "6a84051cb6ec17089431f5e3",
     "account": "Cash",
     "note": "Health checkup",
     "desc": ""
   },
   {
-    "date": "2026-03-27T12:00:00.000Z",
-    "amount": 3000,
-    "category": "6a788a46c2687a5e918c1e27",
+    "date": "2025-12-20T20:22:00.000Z",
+    "amount": 477.85,
+    "category": "6a84051cb6ec17089431f5dd",
     "account": "Account",
-    "note": "Interest",
-    "desc": ""
-  },
-
-  {
-    "date": "2026-04-02T09:00:00.000Z",
-    "amount": 350,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Breakfast",
+    "note": "Swiggy order",
     "desc": ""
   },
   {
-    "date": "2026-04-08T18:00:00.000Z",
-    "amount": 1500,
-    "category": "6a788a46c2687a5e918c1e16",
+    "date": "2025-12-21T23:25:00.000Z",
+    "amount": 2198.8,
+    "category": "6a84051cb6ec17089431f5e1",
     "account": "Card",
-    "note": "Shopping",
+    "note": "Furniture repair",
     "desc": ""
   },
   {
-    "date": "2026-04-15T10:00:00.000Z",
-    "amount": 32000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
+    "date": "2025-12-22T13:25:00.000Z",
+    "amount": 693.91,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Cash",
+    "note": "Petrol refill",
     "desc": ""
   },
   {
-    "date": "2026-04-21T17:00:00.000Z",
-    "amount": 850,
-    "category": "6a788a46c2687a5e918c1e17",
+    "date": "2025-12-22T14:42:00.000Z",
+    "amount": 1026.15,
+    "category": "6a84051cb6ec17089431f5e2",
     "account": "Card",
-    "note": "Movie",
+    "note": "Shoes purchase",
     "desc": ""
   },
   {
-    "date": "2026-04-28T11:00:00.000Z",
-    "amount": 1200,
-    "category": "6a788a46c2687a5e918c1e22",
-    "account": "Cash",
-    "note": "Allowance",
-    "desc": ""
-  },
-
-  {
-    "date": "2026-05-03T09:00:00.000Z",
-    "amount": 300,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Breakfast",
-    "desc": ""
-  },
-  {
-    "date": "2026-05-09T18:00:00.000Z",
-    "amount": 1800,
-    "category": "6a788a46c2687a5e918c1e15",
-    "account": "Account",
-    "note": "Household items",
-    "desc": ""
-  },
-  {
-    "date": "2026-05-15T10:00:00.000Z",
-    "amount": 32000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
-    "desc": ""
-  },
-  {
-    "date": "2026-05-22T16:00:00.000Z",
-    "amount": 650,
-    "category": "6a788a46c2687a5e918c1e12",
-    "account": "Cash",
-    "note": "Social outing",
-    "desc": ""
-  },
-  {
-    "date": "2026-05-29T12:00:00.000Z",
-    "amount": 2500,
-    "category": "6a788a46c2687a5e918c1e27",
-    "account": "Account",
-    "note": "Interest",
-    "desc": ""
-  },
-
-  {
-    "date": "2026-06-02T09:00:00.000Z",
-    "amount": 400,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Lunch",
-    "desc": ""
-  },
-  {
-    "date": "2026-06-08T18:00:00.000Z",
-    "amount": 2000,
-    "category": "6a788a46c2687a5e918c1e14",
-    "account": "Account",
-    "note": "Fuel",
-    "desc": ""
-  },
-  {
-    "date": "2026-06-15T10:00:00.000Z",
-    "amount": 33000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
-    "desc": ""
-  },
-  {
-    "date": "2026-06-21T17:00:00.000Z",
-    "amount": 1000,
-    "category": "6a788a46c2687a5e918c1e18",
-    "account": "Cash",
-    "note": "Medicine",
-    "desc": ""
-  },
-  {
-    "date": "2026-06-28T11:00:00.000Z",
-    "amount": 1500,
-    "category": "6a788a46c2687a5e918c1e22",
-    "account": "Cash",
-    "note": "Allowance",
-    "desc": ""
-  },
-
-  {
-    "date": "2026-07-03T09:00:00.000Z",
-    "amount": 350,
-    "category": "6a788a46c2687a5e918c1e11",
-    "account": "Cash",
-    "note": "Breakfast",
-    "desc": ""
-  },
-  {
-    "date": "2026-07-08T18:00:00.000Z",
-    "amount": 2500,
-    "category": "6a788a46c2687a5e918c1e16",
+    "date": "2025-12-23T20:00:00.000Z",
+    "amount": 383.96,
+    "category": "6a84051cb6ec17089431f5e1",
     "account": "Card",
-    "note": "Shopping",
+    "note": "Cleaning supplies",
     "desc": ""
   },
   {
-    "date": "2026-07-15T10:00:00.000Z",
-    "amount": 33000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
-    "desc": ""
-  },
-  {
-    "date": "2026-07-20T17:00:00.000Z",
-    "amount": 900,
-    "category": "6a788a46c2687a5e918c1e17",
-    "account": "Card",
-    "note": "Entertainment",
-    "desc": ""
-  },
-  {
-    "date": "2026-07-27T12:00:00.000Z",
-    "amount": 3000,
-    "category": "6a788a46c2687a5e918c1e27",
-    "account": "Account",
-    "note": "Interest",
-    "desc": ""
-  },
-
-  {
-    "date": "2026-08-03T09:00:00.000Z",
-    "amount": 300,
-    "category": "6a788a46c2687a5e918c1e11",
+    "date": "2025-12-24T11:59:00.000Z",
+    "amount": 2359.76,
+    "category": "6a84051cb6ec17089431f5e3",
     "account": "Cash",
-    "note": "Breakfast",
+    "note": "Health checkup",
     "desc": ""
   },
   {
-    "date": "2026-08-08T18:00:00.000Z",
-    "amount": 1500,
-    "category": "6a788a46c2687a5e918c1e14",
+    "date": "2025-12-27T21:22:00.000Z",
+    "amount": 222.08,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Cash",
+    "note": "Ola/Uber ride",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-02T13:27:00.000Z",
+    "amount": 25699.74,
+    "category": "6a84051cb6ec17089431f5e7",
     "account": "Account",
-    "note": "Transport",
-    "desc": ""
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
   },
   {
-    "date": "2026-08-15T10:00:00.000Z",
-    "amount": 33000,
-    "category": "6a788a46c2687a5e918c1e23",
-    "account": "Account",
-    "note": "Salary",
-    "desc": ""
-  },
-  {
-    "date": "2026-08-20T17:00:00.000Z",
-    "amount": 750,
-    "category": "6a788a46c2687a5e918c1e12",
+    "date": "2026-01-02T13:53:00.000Z",
+    "amount": 152.61,
+    "category": "6a84051cb6ec17089431f5e4",
     "account": "Card",
-    "note": "Dinner with friends",
+    "note": "Spotify premium",
     "desc": ""
   },
   {
-    "date": "2026-08-28T12:00:00.000Z",
-    "amount": 2500,
-    "category": "6a788a46c2687a5e918c1e27",
+    "date": "2026-01-02T14:30:00.000Z",
+    "amount": 889.02,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Cash",
+    "note": "Dog food",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-03T14:43:00.000Z",
+    "amount": 510.42,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Cash",
+    "note": "Books purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-05T07:57:00.000Z",
+    "amount": 550.58,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Pharmacy - medicines",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-05T21:42:00.000Z",
+    "amount": 984.25,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Card",
+    "note": "Get-together dinner",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-06T23:29:00.000Z",
+    "amount": 130.13,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Pharmacy - medicines",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-07T09:26:00.000Z",
+    "amount": 444.56,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Card",
+    "note": "Pet grooming",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-10T19:35:00.000Z",
+    "amount": 4334.9,
+    "category": "6a84051cb6ec17089431f5e6",
     "account": "Account",
-    "note": "Interest",
+    "note": "Certification exam fee",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-11T19:44:00.000Z",
+    "amount": 377.39,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Utensils purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-14T17:29:00.000Z",
+    "amount": 509.25,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Card",
+    "note": "Kitchen essentials",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-15T09:45:00.000Z",
+    "amount": 314.29,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Account",
+    "note": "Bus pass recharge",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-15T12:47:00.000Z",
+    "amount": 2222.99,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Account",
+    "note": "Health checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-22T10:46:00.000Z",
+    "amount": 2290.1,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Card",
+    "note": "Online shopping - Myntra",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-22T19:43:00.000Z",
+    "amount": 711.1,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Cash",
+    "note": "Train ticket",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-26T12:42:00.000Z",
+    "amount": 213.6,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Card",
+    "note": "Train ticket",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-27T15:49:00.000Z",
+    "amount": 744.37,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Account",
+    "note": "Kitchen essentials",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-29T09:08:00.000Z",
+    "amount": 716.74,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Account",
+    "note": "Online shopping - Myntra",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-29T13:45:00.000Z",
+    "amount": 174.71,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Account",
+    "note": "Spotify premium",
+    "desc": ""
+  },
+  {
+    "date": "2026-01-31T21:39:00.000Z",
+    "amount": 1015.01,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Card",
+    "note": "Books purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-01T20:36:00.000Z",
+    "amount": 28803.81,
+    "category": "6a84051cb6ec17089431f5e7",
+    "account": "Account",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2026-02-04T16:54:00.000Z",
+    "amount": 1526.39,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Cash",
+    "note": "Weekend outing",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-06T10:49:00.000Z",
+    "amount": 2548.25,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Account",
+    "note": "Furniture repair",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-08T13:53:00.000Z",
+    "amount": 159.17,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Cash",
+    "note": "Swiggy order",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-10T19:25:00.000Z",
+    "amount": 1147.32,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Cash",
+    "note": "Friend's birthday treat",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-11T07:31:00.000Z",
+    "amount": 187.08,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Cash",
+    "note": "Spotify premium",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-12T20:42:00.000Z",
+    "amount": 992.91,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Card",
+    "note": "Online course - Udemy",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-13T17:13:00.000Z",
+    "amount": 1409.4,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Account",
+    "note": "Grocery - Big Bazaar",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-15T20:52:00.000Z",
+    "amount": 638.62,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Account",
+    "note": "Utensils purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-16T10:36:00.000Z",
+    "amount": 479.1,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Account",
+    "note": "Ola/Uber ride",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-16T14:17:00.000Z",
+    "amount": 805.09,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Cash",
+    "note": "Internet bill",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-18T07:58:00.000Z",
+    "amount": 436.41,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Card",
+    "note": "Pet grooming",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-18T08:22:00.000Z",
+    "amount": 156.06,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Cash",
+    "note": "Milk & vegetables",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-21T20:08:00.000Z",
+    "amount": 540.08,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Cash",
+    "note": "Swiggy order",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-22T19:46:00.000Z",
+    "amount": 415.53,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Account",
+    "note": "Doctor consultation",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-23T11:27:00.000Z",
+    "amount": 323.3,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Card",
+    "note": "Accessories",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-25T14:54:00.000Z",
+    "amount": 913.31,
+    "category": "6a84051cb6ec17089431f5ea",
+    "account": "Account",
+    "note": "Small cash gift",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-25T20:16:00.000Z",
+    "amount": 884.44,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Account",
+    "note": "Doctor consultation",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-27T09:17:00.000Z",
+    "amount": 2739.59,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Cash",
+    "note": "Shoes purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-02-28T20:52:00.000Z",
+    "amount": 1137.26,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Account",
+    "note": "New shirt",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-02T13:51:00.000Z",
+    "amount": 27583.52,
+    "category": "6a84051cb6ec17089431f5e7",
+    "account": "Account",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2026-03-04T13:18:00.000Z",
+    "amount": 427.48,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Cash",
+    "note": "Books purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-07T22:17:00.000Z",
+    "amount": 979.67,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Card",
+    "note": "Dog food",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-08T10:35:00.000Z",
+    "amount": 494.0,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Card",
+    "note": "Cleaning supplies",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-08T23:24:00.000Z",
+    "amount": 2802.06,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Account",
+    "note": "Certification exam fee",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-09T09:10:00.000Z",
+    "amount": 195.95,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Card",
+    "note": "Ola/Uber ride",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-09T22:07:00.000Z",
+    "amount": 1057.69,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Account",
+    "note": "Dog food",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-10T08:39:00.000Z",
+    "amount": 776.07,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Utensils purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-10T14:25:00.000Z",
+    "amount": 461.3,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Account",
+    "note": "Swiggy order",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-11T10:47:00.000Z",
+    "amount": 1303.8,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Card",
+    "note": "Weekend outing",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-12T21:17:00.000Z",
+    "amount": 226.66,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Cash",
+    "note": "Water bill",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-16T23:22:00.000Z",
+    "amount": 625.5,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Card",
+    "note": "Books purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-17T11:05:00.000Z",
+    "amount": 393.08,
+    "category": "6a84051cb6ec17089431f5ea",
+    "account": "Account",
+    "note": "Small cash gift",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-19T08:09:00.000Z",
+    "amount": 289.52,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Card",
+    "note": "Movie tickets",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-19T16:30:00.000Z",
+    "amount": 730.84,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Account",
+    "note": "Friend's birthday treat",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-23T11:17:00.000Z",
+    "amount": 170.48,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Cleaning supplies",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-23T11:40:00.000Z",
+    "amount": 367.12,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Account",
+    "note": "Water bill",
+    "desc": ""
+  },
+  {
+    "date": "2026-03-23T22:41:00.000Z",
+    "amount": 519.33,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Account",
+    "note": "Netflix subscription",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-01T15:36:00.000Z",
+    "amount": 1160.93,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Cash",
+    "note": "Certification exam fee",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-02T08:26:00.000Z",
+    "amount": 29505.04,
+    "category": "6a84051cb6ec17089431f5e7",
+    "account": "Account",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2026-04-02T12:50:00.000Z",
+    "amount": 646.09,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Card",
+    "note": "Dog food",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-02T21:05:00.000Z",
+    "amount": 1129.03,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Account",
+    "note": "Health checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-04T14:41:00.000Z",
+    "amount": 261.74,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Account",
+    "note": "Train ticket",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-08T16:45:00.000Z",
+    "amount": 277.22,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Account",
+    "note": "Cleaning supplies",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-11T15:01:00.000Z",
+    "amount": 682.65,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Card",
+    "note": "Health checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-11T20:44:00.000Z",
+    "amount": 1243.2,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Card",
+    "note": "Weekend outing",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-14T08:12:00.000Z",
+    "amount": 459.22,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Card",
+    "note": "Mobile recharge",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-15T10:29:00.000Z",
+    "amount": 888.68,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Card",
+    "note": "Books purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-16T18:26:00.000Z",
+    "amount": 399.99,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Card",
+    "note": "Movie tickets",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-17T22:28:00.000Z",
+    "amount": 356.31,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Doctor consultation",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-28T23:52:00.000Z",
+    "amount": 1486.93,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Card",
+    "note": "Get-together dinner",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-30T15:11:00.000Z",
+    "amount": 198.76,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Account",
+    "note": "Spotify premium",
+    "desc": ""
+  },
+  {
+    "date": "2026-04-30T15:50:00.000Z",
+    "amount": 1686.87,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Card",
+    "note": "Weekend outing",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-01T11:26:00.000Z",
+    "amount": 635.47,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Cash",
+    "note": "Mobile recharge",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-04T20:03:00.000Z",
+    "amount": 27035.58,
+    "category": "6a84051cb6ec17089431f5e7",
+    "account": "Account",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2026-05-08T10:29:00.000Z",
+    "amount": 668.24,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Card",
+    "note": "Pharmacy - medicines",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-08T20:02:00.000Z",
+    "amount": 388.63,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Account",
+    "note": "Train ticket",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-08T21:35:00.000Z",
+    "amount": 130.57,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Cash",
+    "note": "Spotify premium",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-14T10:48:00.000Z",
+    "amount": 1060.5,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Cash",
+    "note": "Petrol refill",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-15T17:55:00.000Z",
+    "amount": 332.06,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Card",
+    "note": "Accessories",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-16T11:28:00.000Z",
+    "amount": 3154.32,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Account",
+    "note": "Certification exam fee",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-20T09:15:00.000Z",
+    "amount": 2188.55,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Account",
+    "note": "Electricity bill",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-22T11:31:00.000Z",
+    "amount": 975.38,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Doctor consultation",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-23T12:19:00.000Z",
+    "amount": 1281.34,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Card",
+    "note": "Online course - Udemy",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-24T11:55:00.000Z",
+    "amount": 1279.24,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Account",
+    "note": "Certification exam fee",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-26T15:21:00.000Z",
+    "amount": 1085.59,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Account",
+    "note": "Get-together dinner",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-27T07:18:00.000Z",
+    "amount": 1924.71,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Card",
+    "note": "Online shopping - Myntra",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-28T10:55:00.000Z",
+    "amount": 361.26,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Cash",
+    "note": "Water bill",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-28T19:20:00.000Z",
+    "amount": 369.38,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Account",
+    "note": "Coffee with friends",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-29T22:07:00.000Z",
+    "amount": 217.32,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Card",
+    "note": "Utensils purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-05-30T16:32:00.000Z",
+    "amount": 1146.49,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Account",
+    "note": "Vet checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-01T08:58:00.000Z",
+    "amount": 724.48,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Account",
+    "note": "Doctor consultation",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-02T18:46:00.000Z",
+    "amount": 278.85,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Account",
+    "note": "Utensils purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-02T19:19:00.000Z",
+    "amount": 34034.24,
+    "category": "6a84051cb6ec17089431f5e7",
+    "account": "Account",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2026-06-06T13:08:00.000Z",
+    "amount": 750.56,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Account",
+    "note": "Accessories",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-12T13:27:00.000Z",
+    "amount": 2436.71,
+    "category": "6a84051cb6ec17089431f5e8",
+    "account": "Card",
+    "note": "Allowance from home",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-15T18:43:00.000Z",
+    "amount": 487.06,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Account",
+    "note": "Cleaning supplies",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-20T18:14:00.000Z",
+    "amount": 645.63,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Card",
+    "note": "Kitchen essentials",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-21T10:57:00.000Z",
+    "amount": 639.22,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Kitchen essentials",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-21T15:29:00.000Z",
+    "amount": 341.5,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Cash",
+    "note": "Train ticket",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-21T20:44:00.000Z",
+    "amount": 450.1,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Account",
+    "note": "Books purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-22T12:04:00.000Z",
+    "amount": 830.08,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Account",
+    "note": "Gaming purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-22T12:10:00.000Z",
+    "amount": 850.14,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Card",
+    "note": "Health checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-22T14:31:00.000Z",
+    "amount": 2325.66,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Health checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-23T16:01:00.000Z",
+    "amount": 2453.68,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Card",
+    "note": "Online shopping - Myntra",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-26T10:29:00.000Z",
+    "amount": 2907.23,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Furniture repair",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-27T12:16:00.000Z",
+    "amount": 378.51,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Account",
+    "note": "Water bill",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-28T18:05:00.000Z",
+    "amount": 743.01,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Cash",
+    "note": "Train ticket",
+    "desc": ""
+  },
+  {
+    "date": "2026-06-28T22:06:00.000Z",
+    "amount": 327.9,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Card",
+    "note": "Train ticket",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-01T12:16:00.000Z",
+    "amount": 252.4,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Card",
+    "note": "Books purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-04T09:30:00.000Z",
+    "amount": 1396.55,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Account",
+    "note": "Health checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-04T10:15:00.000Z",
+    "amount": 732.36,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Utensils purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-04T18:23:00.000Z",
+    "amount": 26083.46,
+    "category": "6a84051cb6ec17089431f5e7",
+    "account": "Account",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2026-07-04T22:39:00.000Z",
+    "amount": 1316.23,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Account",
+    "note": "Health checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-04T22:45:00.000Z",
+    "amount": 2319.4,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Health checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-05T07:22:00.000Z",
+    "amount": 1010.99,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Cash",
+    "note": "Friend's birthday treat",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-07T09:53:00.000Z",
+    "amount": 659.09,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Cash",
+    "note": "Pet grooming",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-12T13:28:00.000Z",
+    "amount": 211.17,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Cash",
+    "note": "Milk & vegetables",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-12T20:37:00.000Z",
+    "amount": 819.59,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Doctor consultation",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-13T15:12:00.000Z",
+    "amount": 1758.67,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Account",
+    "note": "New shirt",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-15T07:03:00.000Z",
+    "amount": 399.65,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Account",
+    "note": "Water bill",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-15T23:14:00.000Z",
+    "amount": 2879.91,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Cash",
+    "note": "Electricity bill",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-21T07:03:00.000Z",
+    "amount": 1680.19,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Cash",
+    "note": "Weekend outing",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-21T20:07:00.000Z",
+    "amount": 467.73,
+    "category": "6a84051cb6ec17089431f5e4",
+    "account": "Cash",
+    "note": "Gaming purchase",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-22T18:34:00.000Z",
+    "amount": 1672.21,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Card",
+    "note": "New shirt",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-27T14:21:00.000Z",
+    "amount": 1638.99,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Card",
+    "note": "Online course - Udemy",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-28T11:08:00.000Z",
+    "amount": 1580.43,
+    "category": "6a84051cb6ec17089431f5dd",
+    "account": "Cash",
+    "note": "Grocery - Big Bazaar",
+    "desc": ""
+  },
+  {
+    "date": "2026-07-30T17:14:00.000Z",
+    "amount": 3942.96,
+    "category": "6a84051cb6ec17089431f5e8",
+    "account": "Card",
+    "note": "Allowance from home",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-02T16:38:00.000Z",
+    "amount": 1124.9,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Health checkup",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-02T17:42:00.000Z",
+    "amount": 273.34,
+    "category": "6a84051cb6ec17089431f5df",
+    "account": "Account",
+    "note": "Pet grooming",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-03T17:09:00.000Z",
+    "amount": 25656.82,
+    "category": "6a84051cb6ec17089431f5e7",
+    "account": "Account",
+    "note": "Monthly salary credited",
+    "desc": "Monthly salary from Sutherland Global Services"
+  },
+  {
+    "date": "2026-08-03T20:06:00.000Z",
+    "amount": 970.13,
+    "category": "6a84051cb6ec17089431f5de",
+    "account": "Account",
+    "note": "Friend's birthday treat",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-04T15:36:00.000Z",
+    "amount": 874.93,
+    "category": "6a84051cb6ec17089431f5e2",
+    "account": "Account",
+    "note": "Online shopping - Myntra",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-05T07:05:00.000Z",
+    "amount": 547.67,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Cash",
+    "note": "Pharmacy - medicines",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-07T11:42:00.000Z",
+    "amount": 2928.76,
+    "category": "6a84051cb6ec17089431f5e6",
+    "account": "Cash",
+    "note": "Certification exam fee",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-12T07:11:00.000Z",
+    "amount": 2674.66,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Card",
+    "note": "Furniture repair",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-15T14:26:00.000Z",
+    "amount": 404.2,
+    "category": "6a84051cb6ec17089431f5e0",
+    "account": "Account",
+    "note": "Train ticket",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-15T17:10:00.000Z",
+    "amount": 559.04,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Card",
+    "note": "Doctor consultation",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-20T15:01:00.000Z",
+    "amount": 1196.92,
+    "category": "6a84051cb6ec17089431f5e5",
+    "account": "Card",
+    "note": "Electricity bill",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-20T16:18:00.000Z",
+    "amount": 562.97,
+    "category": "6a84051cb6ec17089431f5ea",
+    "account": "Card",
+    "note": "Small cash gift",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-24T10:20:00.000Z",
+    "amount": 598.73,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Card",
+    "note": "Doctor consultation",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-26T10:54:00.000Z",
+    "amount": 492.83,
+    "category": "6a84051cb6ec17089431f5e3",
+    "account": "Card",
+    "note": "Pharmacy - medicines",
+    "desc": ""
+  },
+  {
+    "date": "2026-08-31T11:43:00.000Z",
+    "amount": 2807.46,
+    "category": "6a84051cb6ec17089431f5e1",
+    "account": "Cash",
+    "note": "Furniture repair",
     "desc": ""
   }
 ]

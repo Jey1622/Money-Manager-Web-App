@@ -2,164 +2,106 @@
   {
     "name": "Food",
     "type": "Expense",
+    "emoji": "🍔",
     "description": "Restaurants, groceries, snacks, and food expenses",
-    "isActive": true
+    "isDefault": true
   },
   {
     "name": "Social Life",
     "type": "Expense",
+    "emoji": "🎉",
     "description": "Parties, outings, and social activities",
-    "isActive": true
+    "isDefault": true
   },
   {
     "name": "Pets",
     "type": "Expense",
+    "emoji": "🐶",
     "description": "Pet food, grooming, veterinary, and other pet expenses",
-    "isActive": true
+    "isDefault": true
   },
   {
     "name": "Transport",
     "type": "Expense",
-    "description": "Fuel, public transport, taxi, and vehicle expenses",
-    "isActive": true
+    "emoji": "🚗",
+    "description": "Fuel, taxi, bus, train, and transportation",
+    "isDefault": true
   },
   {
     "name": "Household",
     "type": "Expense",
-    "description": "Household items, cleaning, furniture, and maintenance",
-    "isActive": true
+    "emoji": "🏠",
+    "description": "Household items and expenses",
+    "isDefault": true
   },
   {
     "name": "Shopping",
     "type": "Expense",
-    "description": "Clothes, electronics, and general shopping",
-    "isActive": true
-  },
-  {
-    "name": "Entertainment",
-    "type": "Expense",
-    "description": "Movies, games, subscriptions, and entertainment",
-    "isActive": true
+    "emoji": "🛍️",
+    "description": "Clothes, accessories, and shopping",
+    "isDefault": true
   },
   {
     "name": "Health",
     "type": "Expense",
-    "description": "Medicine, doctor visits, and healthcare expenses",
-    "isActive": true
+    "emoji": "💊",
+    "description": "Medicine, doctor, and healthcare",
+    "isDefault": true
   },
   {
-    "name": "Education",
+    "name": "Entertainment",
     "type": "Expense",
-    "description": "Courses, books, tuition, and educational expenses",
-    "isActive": true
+    "emoji": "🎬",
+    "description": "Movies, games, subscriptions, and entertainment",
+    "isDefault": true
   },
   {
     "name": "Bills & Utilities",
     "type": "Expense",
-    "description": "Electricity, water, internet, phone, and other bills",
-    "isActive": true
+    "emoji": "💡",
+    "description": "Electricity, water, internet, and other bills",
+    "isDefault": true
   },
   {
-    "name": "Rent",
+    "name": "Education",
     "type": "Expense",
-    "description": "House or apartment rent",
-    "isActive": true
-  },
-  {
-    "name": "Travel",
-    "type": "Expense",
-    "description": "Flights, hotels, trips, and vacation expenses",
-    "isActive": true
-  },
-  {
-    "name": "Personal Care",
-    "type": "Expense",
-    "description": "Salon, grooming, cosmetics, and personal care",
-    "isActive": true
-  },
-  {
-    "name": "Insurance",
-    "type": "Expense",
-    "description": "Health, vehicle, life, and other insurance payments",
-    "isActive": true
-  },
-  {
-    "name": "Debt & Loans",
-    "type": "Expense",
-    "description": "Loan payments, credit card payments, and debt repayment",
-    "isActive": true
-  },
-  {
-    "name": "Gifts & Donations",
-    "type": "Expense",
-    "description": "Gifts, charity, and donations",
-    "isActive": true
-  },
-  {
-    "name": "Others",
-    "type": "Expense",
-    "description": "Other expenses that do not fit into the above categories",
-    "isActive": true
-  },
-
-  {
-    "name": "Allowance",
-    "type": "Income",
-    "description": "Regular allowance received",
-    "isActive": true
+    "emoji": "📚",
+    "description": "Books, courses, tuition, and education",
+    "isDefault": true
   },
   {
     "name": "Salary",
     "type": "Income",
-    "description": "Monthly or regular salary",
-    "isActive": true
+    "emoji": "💰",
+    "description": "Monthly salary",
+    "isDefault": true
   },
   {
-    "name": "Petty Cash",
+    "name": "Allowance",
     "type": "Income",
-    "description": "Small amounts of cash received",
-    "isActive": true
+    "emoji": "💵",
+    "description": "Allowance received",
+    "isDefault": true
   },
   {
     "name": "Bonus",
     "type": "Income",
-    "description": "Performance bonuses and other bonuses",
-    "isActive": true
+    "emoji": "🎁",
+    "description": "Bonus and rewards",
+    "isDefault": true
   },
   {
-    "name": "Freelance",
+    "name": "Petty Cash",
     "type": "Income",
-    "description": "Income received from freelance work",
-    "isActive": true
-  },
-  {
-    "name": "Interest",
-    "type": "Income",
-    "description": "Interest received from bank accounts or investments",
-    "isActive": true
-  },
-  {
-    "name": "Investment",
-    "type": "Income",
-    "description": "Income received from investments",
-    "isActive": true
-  },
-  {
-    "name": "Gift",
-    "type": "Income",
-    "description": "Money received as gifts",
-    "isActive": true
-  },
-  {
-    "name": "Refund",
-    "type": "Income",
-    "description": "Refunds received from purchases or services",
-    "isActive": true
+    "emoji": "💸",
+    "description": "Small cash income",
+    "isDefault": true
   },
   {
     "name": "Others",
     "type": "Income",
-    "description": "Other income that does not fit into the above categories",
-    "isActive": true
+    "emoji": "📥",
+    "description": "Other income",
+    "isDefault": true
   }
 ]

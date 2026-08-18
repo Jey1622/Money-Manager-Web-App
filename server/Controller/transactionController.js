@@ -39,7 +39,9 @@ exports.getAllTransaction = async (req, res, next) => {
       },
     })
       .select("date amount category account note desc")
-      .populate("category", "name type");
+      .populate("category", "name type emoji")
+      .sort({ date: -1 });
+      
     return res.status(200).json({
       success: true,
       transaction,
