@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../../axios";
 import { Box, Card, CardContent, Typography } from "@mui/material";
+import Graph from "../../components/Graph";
 
 function AccountDetails() {
   const [totals, setTotals] = useState({
@@ -250,7 +251,7 @@ function AccountDetails() {
         </Card>
       </Box>
       <Box>
-        
+        <Graph/>
       </Box>
     </Box>
   );
