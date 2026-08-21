@@ -1,35 +1,39 @@
-import Box from "@mui/material/Box";
-import Drawer from "@mui/material/Drawer";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Divider from "@mui/material/Divider";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import DensityMediumIcon from "@mui/icons-material/DensityMedium";
-import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
-import HomeIcon from "@mui/icons-material/Home";
-import DashboardRoundedIcon from "@mui/icons-material/DashboardRounded";
-import PeopleIcon from "@mui/icons-material/People";
-import AccountBalanceWalletRoundedIcon from '@mui/icons-material/AccountBalanceWalletRounded';
-import EqualizerRoundedIcon from '@mui/icons-material/EqualizerRounded';
+import {
+  ListItemText,
+  ListItemIcon,
+  ListItemButton,
+  ListItem,
+  List,
+  Divider,
+  Typography,
+  Button,
+  Drawer,
+  Box,
+} from "@mui/material";
+import AccountBalanceWalletRoundedIcon from "@mui/icons-material/AccountBalanceWalletRounded";
+import EqualizerRoundedIcon from "@mui/icons-material/EqualizerRounded";
+import SavingsIcon from "@mui/icons-material/Savings";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 export const DRAWER_WIDTH = 240;
 
 const navItems = [
-    { text: "Transaction", icon: <AccountBalanceWalletRoundedIcon />,  path: "/" ,active: true},
-    { text: "Stats", icon: <EqualizerRoundedIcon />,  path: "/stats" },
-    // { text: "Logout", icon: <LogoutIcon />, call: () => setOpen(true) },    
-    // { text: 'Orders', icon: <ReceiptLongRoundedIcon /> },
-    // { text: 'Settings', icon: <SettingsRoundedIcon /> },
-  ];
+  {
+    text: "Transaction",
+    icon: <AccountBalanceWalletRoundedIcon />,
+    path: "/",
+    active: true,
+  },
+  // { text: "Stats", icon: <EqualizerRoundedIcon />,  path: "/stats" },
+  { text: "Accounts", icon: <SavingsIcon />, path: "/accounts" },
+];
 function SideBar() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
   return (
-   <>
+    <>
       <Drawer
         variant="permanent"
         sx={{
@@ -66,8 +70,8 @@ function SideBar() {
         <List sx={{ px: 1.5, py: 2 }}>
           {navItems.map((item) => (
             <ListItemButton
-              onClick={item.call}
               key={item.text}
+              onClick={() => navigate(item.path)}
               selected={location.pathname === item.path}
               sx={{
                 borderRadius: 2,
@@ -92,7 +96,7 @@ function SideBar() {
         </List>
       </Drawer>
     </>
-  )
+  );
 }
 
-export default SideBar
+export default SideBar;

@@ -54,6 +54,7 @@ exports.getAllTransaction = async (req, res, next) => {
   }
 };
 
+//don't need this api
 exports.getTotal = async (req, res, next) => {
   try {
     const transactions = await Transaction.find({
@@ -76,6 +77,66 @@ exports.getTotal = async (req, res, next) => {
       success: true,
       incomeTotal,
       expenseTotal,
+      total,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+exports.getAccountDetails = async (req, res, next) => {
+  try {
+    const transactions = await Transaction.find({
+      isDelete: false,
+    })
+      .select("date amount category account")
+      .populate("category", " type");
+
+    let cashTotal = 0;
+    let accountTotal = 0;
+    let cardLiability = 0;
+
+    transactions.forEach((transaction) => {
+      let amount = transaction.amount;
+
+      if (transaction.account === "Cash") {
+        if (transaction.category.type === "Income") {
+          cashTotal += amount;
+        } else if (transaction.category.type === "Expense") {
+          cashTotal -= amount;
+        }
+      }
+
+      if (transaction.account === "Account") {
+        if (transaction.category.type === "Income") {
+          accountTotal += amount;
+        } else if (transaction.category.type === "Expense") {
+          accountTotal -= amount;
+        }
+      }
+
+      // Card = liability
+      if (transaction.account === "Card") {
+        if (transaction.category.type === "Expense") {
+          cardLiability += amount;
+        } else if (transaction.category.type === "Income") {
+          cardLiability -= amount;
+        }
+      }
+    });
+
+    const assets = cashTotal + accountTotal ;
+    const total = assets-cardLiability
+
+    return res.status(200).json({
+      success: true,
+      cashTotal,
+      accountTotal,
+      cardLiability,
+      assets,
       total
     });
   } catch (error) {
