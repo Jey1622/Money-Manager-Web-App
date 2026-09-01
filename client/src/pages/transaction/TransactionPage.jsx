@@ -4,12 +4,22 @@ import { Box, Typography, Button, Paper } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import AddTransaction from "./AddTransaction";
 import DatePicker from "../../components/DatePicker";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchTransaction } from "../../redux/actions/TransactionAction";
 
 function TransactionPage() {
-  const [transactions, setTransactions] = useState([]);
+  // const [transactions, setTransactions] = useState([]);
   const [openDialog, setOpenDialog] = useState(false);
   const [selectedDate, setSelectedDate] = useState(new Date());
+  const dispatch = useDispatch();
+  const transactions = useSelector((state) => state.transaction.transactions || []);
 
+  useEffect(() => {
+  dispatch(fetchTransaction(selectedDate));
+}, [selectedDate, dispatch]);
+
+
+  // console.log(transactions);
   const totalIncome = transactions
     .filter((transaction) => transaction.category.type === "Income")
     .reduce((total, transaction) => total + transaction.amount, 0);
@@ -20,26 +30,29 @@ function TransactionPage() {
 
   const total = totalIncome - totalExpense;
 
-  useEffect(() => {
-    fetchData();
-  }, [selectedDate]);
 
-  function fetchData() {
-    api
-      .get("/getAllTransaction", {
-        params: {
-          month: selectedDate.getMonth() + 1,
-          year: selectedDate.getFullYear(),
-        },
-      })
-      .then((response) => {
-        setTransactions(response.data.transaction);
-        console.log(response);
-      })
-      .catch((e) => {
-        console.log(e);
-      });
-  }
+  // useEffect(() => {
+  //   fetchData();
+  // }, [selectedDate]);
+
+  // function fetchData() {
+  //   api
+  //     .get("/getAllTransaction", {
+  //       params: {
+  //         month: selectedDate.getMonth() + 1,
+  //         year: selectedDate.getFullYear(),
+  //       },
+  //     })
+  //     .then((response) => {
+  //       setTransactions(response.data.transaction);
+  //       console.log(response);
+  //     })
+  //     .catch((e) => {
+  //       console.log(e);
+  //     });
+
+  // }
+
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
@@ -374,7 +387,8 @@ function TransactionPage() {
       <AddTransaction
         open={openDialog}
         handleClose={() => setOpenDialog(false)}
-        onTransactionAdded={fetchData}
+        // onTransactionAdded={fetchData}
+        selectedDate={selectedDate}
       />
     </Box>
   );

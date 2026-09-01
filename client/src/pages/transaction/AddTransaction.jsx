@@ -19,8 +19,10 @@ import SyncIcon from "@mui/icons-material/Sync";
 import CameraAltOutlinedIcon from "@mui/icons-material/CameraAltOutlined";
 import { useState } from "react";
 import api from "../../axios";
+import { useDispatch } from "react-redux";
+import { fetchTransaction } from "../../redux/actions/TransactionAction";
 
-function AddTransaction({ open, handleClose, onTransactionAdded }) {
+function AddTransaction({ open, handleClose, selectedDate }) {
   const [categoryType, setCategoryType] = useState("Expense");
   const [categories, setCategories] = useState([]);
   const [formData, setFormData] = useState({
@@ -32,7 +34,7 @@ function AddTransaction({ open, handleClose, onTransactionAdded }) {
     desc: "",
   });
 
-  
+  const dispatch = useDispatch();
 
   useEffect(() => {
     if (open) {
@@ -83,7 +85,7 @@ function AddTransaction({ open, handleClose, onTransactionAdded }) {
       const response = await api.post("/addTransaction", data);
 
       console.log(response.data);
-      onTransactionAdded();
+      dispatch(fetchTransaction(selectedDate));
       setFormData({
         date: "",
         amount: "",
