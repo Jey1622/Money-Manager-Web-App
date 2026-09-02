@@ -20,7 +20,7 @@ import CameraAltOutlinedIcon from "@mui/icons-material/CameraAltOutlined";
 import { useState } from "react";
 import api from "../../axios";
 import { useDispatch } from "react-redux";
-import { fetchTransaction } from "../../redux/actions/TransactionAction";
+import { fetchTransaction,addTransaction } from "../../redux/actions/TransactionAction";
 
 function AddTransaction({ open, handleClose, selectedDate }) {
   const [categoryType, setCategoryType] = useState("Expense");
@@ -67,7 +67,7 @@ function AddTransaction({ open, handleClose, selectedDate }) {
     }));
   };
 
-  const addTransaction = async () => {
+  const handleAddTransaction  = async () => {
     const now = new Date();
 
     const data = {
@@ -79,12 +79,12 @@ function AddTransaction({ open, handleClose, selectedDate }) {
       desc: formData.desc,
     };
 
-    console.log(data);
+    // console.log(data);
 
     try {
-      const response = await api.post("/addTransaction", data);
+     const response = await dispatch(addTransaction(data));
 
-      console.log(response.data);
+      // console.log(response.data);
       dispatch(fetchTransaction(selectedDate));
       setFormData({
         date: "",
@@ -357,7 +357,7 @@ function AddTransaction({ open, handleClose, selectedDate }) {
               },
             }}
             onClick={() => {
-              addTransaction();
+              handleAddTransaction ();
               handleClose();
             }}
           >
@@ -376,7 +376,7 @@ function AddTransaction({ open, handleClose, selectedDate }) {
               fontSize: 16,
             }}
             onClick={() => {
-              addTransaction();
+              handleAddTransaction ();
             }}
           >
             Continue
