@@ -5,6 +5,7 @@ import { ThemeProvider, CssBaseline } from "@mui/material";
 import App from "./App.jsx";
 import { Provider } from "react-redux";
 import { store } from "./store.js";
+import { GoogleOAuthProvider } from "@react-oauth/google";
 
 import theme from "./theme";
 
@@ -12,7 +13,9 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <Provider store={store}>
-        <App />
+        <GoogleOAuthProvider  clientId={import.meta.env.VITE_API_GOOGLE_CLIENT_ID}>
+          <App />
+        </GoogleOAuthProvider>
       </Provider>
     </ThemeProvider>
   </StrictMode>,

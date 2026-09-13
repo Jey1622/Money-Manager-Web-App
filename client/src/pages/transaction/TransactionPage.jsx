@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import api from "../../axios";
 import { Box, Typography, Button, Paper } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import AddTransaction from "./AddTransaction";
@@ -12,12 +11,13 @@ function TransactionPage() {
   const [openDialog, setOpenDialog] = useState(false);
   const [selectedDate, setSelectedDate] = useState(new Date());
   const dispatch = useDispatch();
-  const transactions = useSelector((state) => state.transaction.transactions || []);
+  const transactions = useSelector(
+    (state) => state.transaction.transactions || [],
+  );
 
   useEffect(() => {
-  dispatch(fetchTransaction(selectedDate));
-}, [selectedDate, dispatch]);
-
+    dispatch(fetchTransaction(selectedDate));
+  }, [selectedDate, dispatch]);
 
   // console.log(transactions);
   const totalIncome = transactions
@@ -29,30 +29,6 @@ function TransactionPage() {
     .reduce((total, transaction) => total + transaction.amount, 0);
 
   const total = totalIncome - totalExpense;
-
-
-  // useEffect(() => {
-  //   fetchData();
-  // }, [selectedDate]);
-
-  // function fetchData() {
-  //   api
-  //     .get("/getAllTransaction", {
-  //       params: {
-  //         month: selectedDate.getMonth() + 1,
-  //         year: selectedDate.getFullYear(),
-  //       },
-  //     })
-  //     .then((response) => {
-  //       setTransactions(response.data.transaction);
-  //       console.log(response);
-  //     })
-  //     .catch((e) => {
-  //       console.log(e);
-  //     });
-
-  // }
-
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
