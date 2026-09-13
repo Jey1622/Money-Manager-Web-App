@@ -10,12 +10,18 @@ dotenv.config({ path: path.join(__dirname, "config/config.env") });
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: "http://localhost:5173",
+   credentials: true,
+}));
 
-const category=require("./routes/category")
-const transaction=require("./routes/transaction")
+const category = require("./routes/category");
+const transaction = require("./routes/transaction");
+const authRoute = require("./routes/AuthRoute");
 
-app.use("/api/", category); 
-app.use("/api/",transaction)
+app.use("/api/", category);
+app.use("/api/", transaction);
+app.use("/api", authRoute);
 
 module.exports = app;
