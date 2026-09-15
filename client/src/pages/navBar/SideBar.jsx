@@ -11,10 +11,10 @@ import {
   Box,
 } from "@mui/material";
 import AccountBalanceWalletRoundedIcon from "@mui/icons-material/AccountBalanceWalletRounded";
-import EqualizerRoundedIcon from "@mui/icons-material/EqualizerRounded";
 import SavingsIcon from "@mui/icons-material/Savings";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import api from "../../axios";
 
 export const DRAWER_WIDTH = 240;
 
@@ -27,11 +27,21 @@ const navItems = [
   },
   // { text: "Stats", icon: <EqualizerRoundedIcon />,  path: "/stats" },
   { text: "Accounts", icon: <SavingsIcon />, path: "/accounts" },
+  { text: "LogOut", icon: <SavingsIcon /> },
 ];
 function SideBar() {
   const location = useLocation();
   const navigate = useNavigate();
 
+  const handleLogout = async () => {
+    try {
+      await api.post("/logout");
+
+      navigate("/login", { replace: true });
+    } catch (error) {
+      console.log("Logout error:", error);
+    }
+  };
   return (
     <>
       <Drawer
@@ -71,7 +81,13 @@ function SideBar() {
           {navItems.map((item) => (
             <ListItemButton
               key={item.text}
-              onClick={() => navigate(item.path)}
+              onClick={() => {
+                if (item.text === "LogOut") {
+                  handleLogout();
+                } else {
+                  navigate(item.path);
+                }
+              }}
               selected={location.pathname === item.path}
               sx={{
                 borderRadius: 2,

@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import TransactionPage from "./pages/transaction/TransactionPage";
 import AccountDetails from "./pages/accounts/AccountDetails";
 import LoginPage from "./pages/LoginPage";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <div className="myapp">
         <Routes>
           <Route path="/login" element={<LoginPage />} />
-          <Route element={<DashboardLayout />}>
+          <Route element={ <ProtectedRoute><DashboardLayout /></ProtectedRoute>}>
             <Route path="/" element={<TransactionPage />} />
             <Route path="/accounts" element={<AccountDetails />} />
           </Route>

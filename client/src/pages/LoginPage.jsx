@@ -1,15 +1,19 @@
 import { GoogleLogin } from "@react-oauth/google";
 import api from "../axios";
+import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
-    const handleGoogleLogin = async (credentialResponse) => {
+  const navigate = useNavigate();
+  const handleGoogleLogin = async (credentialResponse) => {
     try {
       const response = await api.post("/google_login", {
         credential: credentialResponse.credential,
       });
 
       console.log("Login response:", response.data);
-
+      if (response.data.success) {
+        navigate("/", { replace: true });
+      }
     } catch (error) {
       console.log("Google login error:", error);
     }
@@ -19,7 +23,7 @@ function LoginPage() {
       <h2>Money Manager</h2>
 
       <GoogleLogin
-       onSuccess={handleGoogleLogin}
+        onSuccess={handleGoogleLogin}
         onError={() => {
           console.log("Google Login Failed");
         }}
