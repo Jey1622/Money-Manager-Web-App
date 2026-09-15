@@ -4,7 +4,9 @@ const Transaction = require("../Model/transactionModel");
 exports.addTransaction = async (req, res, next) => {
   try {
     const { date, amount, category, account, note, desc } = req.body;
+
     const transaction = await Transaction.create({
+      user: req.user._id,
       date,
       amount,
       category,
@@ -12,6 +14,7 @@ exports.addTransaction = async (req, res, next) => {
       note,
       desc,
     });
+
     return res.status(201).json({
       success: true,
       message: "Transaction Added Successfully",
@@ -32,6 +35,7 @@ exports.getAllTransaction = async (req, res, next) => {
     const startDate = new Date(year, month - 1, 1);
     const endDate = new Date(year, month, 1);
     const transaction = await Transaction.find({
+      user: req.user._id,
       isDelete: false,
       date: {
         $gte: startDate,
@@ -58,6 +62,7 @@ exports.getAllTransaction = async (req, res, next) => {
 exports.getTotal = async (req, res, next) => {
   try {
     const transactions = await Transaction.find({
+      user: req.user._id,
       isDelete: false,
     })
       .select("date amount category account")
@@ -90,6 +95,7 @@ exports.getTotal = async (req, res, next) => {
 exports.getAccountDetails = async (req, res, next) => {
   try {
     const transactions = await Transaction.find({
+      user: req.user._id,
       isDelete: false,
     })
       .select("date amount category account")
@@ -154,6 +160,7 @@ exports.getGraphDetails = async (req, res, next) => {
     const startDate = new Date(year, month - 6, 1);
     const endDate = new Date(year, month, 1);
     const transaction = await Transaction.find({
+      user: req.user._id,
       isDelete: false,
       date: {
         $gte: startDate,
@@ -195,7 +202,7 @@ exports.getGraphDetails = async (req, res, next) => {
       expense: data.expense,
       balance: data.income - data.expense,
     }));
-   
+
     return res.status(200).json({
       success: true,
       result,
